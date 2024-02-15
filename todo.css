@@ -1,0 +1,95 @@
+.container {
+    width: 80%; 
+    max-width: 600px; 
+    margin: 50px auto; 
+    padding: 20px;
+    background-color: #012727d7;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: left;
+    color: white;
+}
+
+.formgroup {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 20px; 
+}
+
+.form-control {
+    width: 100%; 
+    margin-bottom: 10px; 
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.list-items {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px; /* Add space between list items */
+}
+
+.list-item-list {
+    flex: 1;
+}
+
+.list-items-icons {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#complete {
+    color: green;
+}
+
+#edit {
+    color: blue;
+}
+
+#delete {
+    color: orange;
+}
+
+#list-item {
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%; 
+    }
+
+    .formgroup {
+        flex-direction: column; 
+    }
+
+    button {
+        width: auto; 
+    }
+
+    .list-items {
+        flex-direction: column; 
+        padding: 15px; 
+    }
+}
