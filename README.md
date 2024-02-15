@@ -1,13 +1,15 @@
 # Todo-List-App
 Use Todo List to set and achieve your goals, Stay Organized.
-Install the node modules.
-I have created a todo.js and todo.css file in the one folder(under src created one component folder inside that these two files are created)
-You can run this VsStudio code 
-npx create -react app name(comment to create a react app in VS code)
+To create a React app in VS Code, you can run the following command:
+npx create-react-app anyname
+Once the React app is created, you can navigate to the project folder in your terminal and install the required node modules.
+After installing the dependencies, you can proceed with creating your todo.js and todo.css files within the src/components folder. 
+commands for running the code:
+cd filename
+npm start
 
-In this app u can able to add,edit and delete the task
-while entering the task u can mention the due dates for the task
-The task are sorted based on the date 
-completed and uncompleted task are identified easily with complete status icons
+Project Focus:
+In these files, you can implement functionality for adding, editing, and deleting tasks. Users should be able to specify due dates for tasks, and tasks should be sorted based on their completion status. 
+Additionally, completed and uncompleted tasks should be easily distinguishable with status icons.
 
 
